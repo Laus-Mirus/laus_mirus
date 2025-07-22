@@ -1,0 +1,101 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0cm;
+    text-decoration: none;
+}
+
+/* COLORS{
+   color: #FF2400;
+   color: #595959;
+} */
+
+@font-face {
+    font-family: custom_thin;
+    src: url(/fonts/Lato-Thin.ttf);
+}
+
+@font-face {
+    font-family: custom_bold_1;
+    src: url(/fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: custom_bold_2;
+    src: url(/fonts/KeepCalm-Medium.ttf);
+}
+
+@font-face {
+    font-family: custom_bold_3;
+    src: url(/fonts/Retro\ Floral.ttf);
+}
+
+.nav_container {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    border-bottom: #FF2400 5px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_left {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    gap: 60px;
+
+    a {
+        font-family: custom_thin;
+        /* letter-spacing: 1px; */
+        color: #ffffff;
+    }
+}
+
+.nav_right {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    gap: 40px;
+
+    a {
+        font-family: custom_thin;
+        /* letter-spacing: 1px; */
+        color: #ffffff;
+    }
+}
+
+.home:hover,
+.about_us:hover,
+.more:hover,
+.login:hover,
+.signup:hover {
+    padding-bottom: 5px;
+    font-family: custom_thin;
+    color: #ffffff;
+    padding-bottom: 5px;
+    border-bottom: 2px #FF2400 solid;
+}
+
+.nav_notification {
+    font-family: custom_thin;
+    width: 100%;
+    height: 50px;
+    background-color: #595959;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .nav_notification_detail {
+        color: #FFFFFF;
+    }
+
+    .nav_notification_detail:hover {
+        color: #FFFFFF;
+        border-bottom: 2px #FF2400 solid;
+        padding-bottom: 5px;
+    }
+}
