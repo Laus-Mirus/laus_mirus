@@ -12,10 +12,10 @@
 
 @font-face {
     font-family: custom_thin;
-    src: url(/fonts/Lato-Thin.ttf);
+    src: url(/fonts/Lato-Thin.woff2);
 }
 
-@font-face {
+/* @font-face {
     font-family: custom_bold_1;
     src: url(/fonts/BebasNeue-Regular.ttf);
 }
@@ -28,7 +28,7 @@
 @font-face {
     font-family: custom_bold_3;
     src: url(/fonts/Retro\ Floral.ttf);
-}
+} */
 
 .nav_container {
     position: fixed;
