@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+    font-family: custom_thin;
+    color: white;
+}
+
+.page1_cv_main {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.core_skill,.Technical_Skills{
+    font-family: custom_thin;
+}
+.name {
+    font-family: custom_thin;
+    color: white;
+}
+
+.personal_blog {
+    font-family: custom_thin;
+    color: white;
+}
+
+.Design_and_Modeling,
+.Video_Editing,
+.Digital_Art,
+.Audio_Tools,
+.Others_skill{
+    color: #FF2400;
+    font-size: 18px;
+}
+
+.design_and_modeling_container {
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.design_and_modeling_div_1 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    /* gap: 80px; */
+}
+
+/* .blender {
+    width: 200px;
+    height: 50px;
+}
+
+.ue5 {
+    width: 250px;
+    height: 50px;
+} */
+/* 
+.after_effects {
+    width: 60px;
+    height: 60px;
+}
+
+.premiere_pro {
+    width: 60px;
+    height: 60px;
+}
+
+.da_vinci {
+    width: 66px;
+    height: 66px;
+} */
+
+/* .photoshop {
+    width: 60px;
+    height: 60px;
+}
+.lightroom{
+    width: 60px;
+    height: 60px;
+} */
+
+.Video_Editing_container {
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.Video_Editing_div {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
+
+}
+
+.Digital_Art_container {
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
+.Digital_Art_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* gap: 80px; */
+}
+
+.Audio_Tools_container {
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.Audio_Tools_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* gap: 80px; */
+}
+.Others_skill_container {
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.Others_skill_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* gap: 80px; */
+}
+
+/*------------core skill font size--------------*/
+.blender,
+.ue5,
+.after_effects,
+.premiere_pro,
+.da_vinci,
+.photoshop,
+.lightroom,
+.fl_studio,
+.Color_Grading{
+    font-family: custom_thin;
+    font-size: 14px;
+}
