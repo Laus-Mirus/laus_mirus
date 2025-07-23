@@ -12,9 +12,12 @@ body {
     padding-left: 40px;
     padding-right: 40px;
 }
-.core_skill,.Technical_Skills{
+
+.core_skill,
+.Technical_Skills {
     font-family: custom_thin;
 }
+
 .name {
     font-family: custom_thin;
     color: white;
@@ -29,7 +32,12 @@ body {
 .Video_Editing,
 .Digital_Art,
 .Audio_Tools,
-.Others_skill{
+.Others_skill,
+.Languages,
+.Web_Development,
+.Databases,
+.Tools_Platforms,
+.Frameworks {
     color: #FF2400;
     font-size: 18px;
 }
@@ -42,7 +50,7 @@ body {
 .design_and_modeling_div_1 {
     padding-top: 20px;
     padding-bottom: 30px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     gap: 50px;
     display: flex;
     flex-direction: row;
@@ -93,7 +101,7 @@ body {
 .Video_Editing_div {
     padding-top: 20px;
     padding-bottom: 30px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     gap: 50px;
     display: flex;
     flex-direction: row;
@@ -110,7 +118,7 @@ body {
 .Digital_Art_div {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     gap: 50px;
     display: flex;
     flex-direction: row;
@@ -128,7 +136,7 @@ body {
 .Audio_Tools_div {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     gap: 50px;
     display: flex;
     flex-direction: row;
@@ -136,6 +144,7 @@ body {
     align-items: center;
     /* gap: 80px; */
 }
+
 .Others_skill_container {
     padding-top: 30px;
     padding-left: 80px;
@@ -145,7 +154,7 @@ body {
 .Others_skill_div {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 80px;
+    /* padding-left: 80px; */
     gap: 50px;
     display: flex;
     flex-direction: row;
@@ -154,7 +163,7 @@ body {
     /* gap: 80px; */
 }
 
-/*------------core skill font size--------------*/
+/*------------ font size--------------*/
 .blender,
 .ue5,
 .after_effects,
@@ -163,7 +172,120 @@ body {
 .photoshop,
 .lightroom,
 .fl_studio,
-.Color_Grading{
+.Color_Grading,
+.Python,
+.C_Language,
+.JavaScript,
+.php,
+.html,
+.css,
+.BashScript,
+.mysql,
+.sqlite,
+.git_github,
+.Django {
     font-family: custom_thin;
     font-size: 14px;
+    background-color: #ffffff0c;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.core_skill {
+    letter-spacing: 1.5px;
+    font-family: custom_bold_1;
+    padding-top: 50px;
+}
+
+.Technical_Skills {
+    letter-spacing: 1.5px;
+    font-family: custom_bold_1;
+    padding-top: 200px;
+}
+
+.Languages_container {
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.Languages_div {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 80px; */
+    gap: 50px;
+}
+
+.Web_Development_container {
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.Web_Development_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 80px; */
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* gap: 80px; */
+}
+
+.Databases_container {
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.Databases_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 80px; */
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* gap: 80px; */
+}
+
+.Tools_Platforms_container {
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.Tools_Platforms_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 80px; */
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* gap: 80px; */
+}
+.Frameworks_container {
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+.Frameworks_div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding-left: 80px; */
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* gap: 80px; */
 }
