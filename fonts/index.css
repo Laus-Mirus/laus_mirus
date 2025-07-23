@@ -5,11 +5,13 @@ body {
     border: 0cm;
     text-decoration: none;
     width:100%;
-    height: 100px;
+    height: 100%;
 }
 .page1 {
+    position: relative;
     padding-top: 100px;
     width: 100%;
+    height: 100%;
     display: flex;
     gap: 20px;
     justify-content: center;
