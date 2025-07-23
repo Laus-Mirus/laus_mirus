@@ -1,0 +1,88 @@
+body{
+    background-color:#000000;
+}
+.about_main{
+    padding: 50px;
+}
+.about_container{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+
+}
+.about_content{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.about_person_1{
+    width:700px;
+    height:250px;
+    background-color: #ffffff0b;
+}
+.title_person_1{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.description_person_1{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.name_person_1,
+.name_person_2{
+    font-family: custom_bold_1;
+    letter-spacing: 1px;
+    color: #FF2400;
+}
+.personal_blog{
+    font-family: custom_thin;
+    color: #ffffff;
+}
+.person_description{
+    font-family: custom_thin;
+    color: #ffffff;
+}
+.About_Me_div{
+    padding-top: 10px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: end;
+}
+.About_Me{
+    font-family: custom_thin;
+    width: 100px;
+    height: 35px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_person_2{
+    width:700px;
+    height:250px;
+    background-color: #ffffff0b;
+}
+.title_person_2{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.description_person_2{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.person2_alignment{
+display: flex;
+justify-content: end;
+}
