@@ -1,20 +1,51 @@
-.login__container{
-    gap: 60px;
-    margin: 160px;
+@font-face {
+    font-family: custom_thin;
+    src: url(Lato-Thin.ttf);
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.login_main {
+    padding: 180px;
+}
+
+.login__container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
-.login_form{
+
+.login_form {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
-.email,.password{
-    border: 0cm;
-    background-color: #595959;
+
+.email_div,
+.password_div {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+}
+
+.login_title {
+    font-family: custom_bold_1;
     color: #FF2400;
-    width: 300px;
-    height: 40px;
+
 }
-.labe_email,.label_pwdl{
-    color: #595959;
+
+.label_email,
+.label_pwd {
+    color: #FF2400;
+    font-family: custom_thin;
 }
